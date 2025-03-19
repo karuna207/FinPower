@@ -1,0 +1,37 @@
+# Flutter/Dart-specific files
+.dart_tool/
+.packages
+build/
+pubspec.lock
+
+# IDE-specific files (VS Code, IntelliJ, Android Studio)
+.idea/
+.vscode/
+*.iml
+
+# Logs & temporary files
+*.log
+
+# macOS/Linux temporary files
+.DS_Store
+
+# Android/Gradle-specific files
+android/.gradle/
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/key.properties
+
+# iOS-specific files
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Generated.xcconfig
+
+# Web build files
+web/manifest.json
+web/favicon.png
+
+# Secrets (Do not track API keys)
+.env
+firebase_options.dart  # If using Firebase
